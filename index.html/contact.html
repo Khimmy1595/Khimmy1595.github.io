@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEJA BREW | HOMEPAGE</title>
+    <link rel="stylesheet" href="/style.css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="/photos/D.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About US</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservation.html">Reservations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact US</h1>
+    </section>
+
+    <!-- Contact us | Content -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3013.3080951139823!2d17.297292285207334!3d40.952828997508014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13463525f64e6fe5%3A0xac4defff2c010b8f!2sVia%20Giuseppe%20Garibaldi%2C%2030%2C%2070043%20Monopoli%20BA%2C%20Italy!5e0!3m2!1sen!2sph!4v1702977176056!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span><h5>Via Girabaldi 30</h5>
+                        <p>70041 MONOPOLI BA ITALIA</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                <span><h5>+36.02.26830102.</h5>
+                    <p>Sunday-Monday 
+                        Wednesday-Friday</p>
+                </span>
+                </div>
+                <div>
+                    <i class="fa fa envelop-o"></i>
+                    <span>
+                        <h5>sipwithdejabrewcafe@gmail.com</h5>
+                        <p>Email Us</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action=""><input type="text" placeholder="Enter your name" required>
+                <form action=""><input type="email" placeholder="Enter your email address" required>
+                    <textarea rows="8" placeholder="Message"></textarea>
+
+                    <button type="Submit" class="hero-btn red btn"> Send Message</button>
+                </form>
+            </div>
+     </div>
+    </section>
+
+
+
+ 
+<!-- footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Welcome to Deja Brew, where Italian tradition meets modern charm. Immerse yourself in the rich aroma of our handcrafted coffees, expertly brewed with passion. <br>Indulge in a taste of Italy, and make every moment a delightful rendezvous at Deja Brew</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+
+            <p>copyright &copy;2023 Deja Brew All Rights Reserved.</p>
+        </p>
+</section>
+
+
+
+
+
+
+
+
+
+    <!-- Java for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            nsvLinks.style.right ="0";
+        }
+        function hideMenu(){
+            nsvLinks.style.right ="-200px";
+        }
+
+    </script>
+
+</body>
+</html>

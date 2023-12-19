@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEJA BREW | HOMEPAGE</title>
+    <link rel="stylesheet" href="/style.css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="/photos/D.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About US</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservations">Reservations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- About us | Content -->
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Espresso Eleganza: <br> Italy's Brew Haven</h1>
+                <p>Welcome to DEJA Brew, where passion for coffee meets the enchanting allure of Italian artistry. <br> Nestled in the heart of Italy, our coffee shop is more than just a place to savor exquisite brews; it's a celebration of the rich tapestry of Italian culture and the profound connection between art and the aromatic world of coffee.</p>
+                <a href="#" class="hero-btn red-btn">LEARN ABOUT US</a>
+            </div>
+            <div class="about-col">
+                    <img src="/photos/halfcupbeans.jpg">
+        </div>
+    </section>
+
+
+
+ 
+<!-- footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Welcome to Deja Brew, where Italian tradition meets modern charm. Immerse yourself in the rich aroma of our handcrafted coffees, expertly brewed with passion. <br>Indulge in a taste of Italy, and make every moment a delightful rendezvous at Deja Brew</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+
+            <p>copyright &copy;2023 Deja Brew All Rights Reserved.</p>
+        </p>
+</section>
+
+
+
+
+
+
+
+
+
+    <!-- Java for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            nsvLinks.style.right ="0";
+        }
+        function hideMenu(){
+            nsvLinks.style.right ="-200px";
+        }
+
+    </script>
+
+</body>
+</html>
